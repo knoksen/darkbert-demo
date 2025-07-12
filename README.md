@@ -1,6 +1,6 @@
 # DarkBERT Demo
 
-A Gradio-powered web demo for S2W-AI's DarkBERT model.
+A Gradio-powered web demo for S2W-AI\'s DarkBERT model.
 
 ## Usage
 
