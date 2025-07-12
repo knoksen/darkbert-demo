@@ -1,18 +1,17 @@
-# DarkBERT Demo
+# DarkBERT Pro UI – Powered by S2W-AI
 
-A Gradio-powered web demo for S2W-AI\'s DarkBERT model.
+A modern Gradio app for masked language modeling, with batch mode, prompt library, download, and Terratek/Njord branding.
 
 ## Usage
 
 1. Install dependencies:
     pip install -r requirements.txt
-
 2. Run the app:
     python app.py
+3. Open http://127.0.0.1:7860 in your browser
 
-3. Open the browser at http://127.0.0.1:7860
+**Requires access to s2w-ai/DarkBERT.**
 
-## Notes
+---
 
-- Requires access to s2w-ai/DarkBERT on Hugging Face.
-- For offline/local use, download/copy model files and point to the local path in the pipeline.
+Standard prompts can be edited in `app.py` (see the `STANDARD_PROMPTS` list).
