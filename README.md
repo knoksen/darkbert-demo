@@ -12,6 +12,12 @@ A modern Gradio app for masked language modeling, with batch mode, prompt librar
 
 **Requires access to s2w-ai/DarkBERT.**
 
+### Downloading DarkBERT Locally
+
+DarkBERT is a gated model. Request access at <https://huggingface.co/s2w-ai/DarkBERT> and run `huggingface-cli login` once granted.
+Download `config.json`, `pytorch_model.bin`, `tokenizer.json`, `vocab.json`, `merges.txt`, `tokenizer_config.json`, and `special_tokens_map.json` and place them in a new `darkbert_cache/` directory (already listed in `.gitignore`).
+You may also set `cache_dir="darkbert_cache"` when creating the `pipeline` in `app.py`.
+
 ---
 
 Standard prompts can be edited in `app.py` (see the `STANDARD_PROMPTS` list).
