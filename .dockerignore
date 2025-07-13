@@ -1,0 +1,8 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.git
+.github
+.dockerignore
+Dockerfile
+tests/
